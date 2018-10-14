@@ -17,7 +17,7 @@ type move struct {
     heuristic int
 }
 
-const squaresOnSide int = 8
+const squaresOnSide int = 6
 const squaresOnBoard int = squaresOnSide * squaresOnSide
 
 var possibleMoves = []move { {+1, -2, 0}, {+1, +2, 0}, {+2, -1, 0}, {+2, +1, 0}, {-1, -2, 0}, {-1, +2, 0}, {-2, +1, 0}, {-2, +1, 0} }

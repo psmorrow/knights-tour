@@ -9,7 +9,7 @@ To build: `go build -o knights`
 
 [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=psmorrow_knights-tour&metric=alert_status)](https://sonarcloud.io/dashboard?id=psmorrow_knights-tour)
 
-# Things to consider:
+## Things to consider:
 
-## Divide and conquer algorithms
+### Divide and conquer algorithms
 By dividing the board into smaller pieces, constructing tours on each piece, and patching the pieces together, one can construct tours on most rectangular boards in linear time - that is, in a time proportional to the number of squares on the board.

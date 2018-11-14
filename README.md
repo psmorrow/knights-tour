@@ -11,5 +11,5 @@ To build: `go build -o knights`
 
 ## Things to consider:
 
-### Divide and conquer algorithms
+### Divide and conquer algorithm
 By dividing the board into smaller pieces, constructing tours on each piece, and patching the pieces together, one can construct tours on most rectangular boards in linear time - that is, in a time proportional to the number of squares on the board.

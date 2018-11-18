@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Go code...
-      - go build knights.go
+      - go build -o knights knights.go
   post_build:
     commands:
       - echo Build completed on `date`
